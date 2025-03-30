@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="An example website">
+    <meta name="Address, location, phone number, email, socials" content="Conatct information">
+    <title>Contact Us</title>
+    <style>
+      body{background: #837060}
+    </style>
+    <link rel="icon" type="image/png" href="images/Coffee_Cup.png">
+    <link rel="stylesheet" href="styles2/stylesheet.css">
+</head>
+  <body>
+    <header>
+      <img style="float:left; margin-right:10px;" src=images/Coffee_Cup.png alt="logo" width= "110">
+      <img style="float:right; margin-left:10px;" src=images/Coffee_Cup.png alt="logo" width= "110">
+        <h1 class="base_color"> Contact Us </h1>
+        <nav>
+           <ul>
+            <li id="active"> <a href="homepage.html"> Home</a></li> 
+            <li> <a href="menu.html"> Menu</a></li>  
+            <li> <a href="aboutus.html"> About us</a></li> 
+            <li> <a href="contact.html"> Contact us</a></li> 
+           </ul>
+       </nav>           
+    </header>
+    <main>
+      
+      <section class="maps-aside">
+        
+        
+        <form action="http://foo.com" method="get">
+          <h3> Please enter the following information: </h3>
+
+          <label for="first_name">Firstname<span class="required">*</span></label>
+          <input type="text" name="first_name" id="first_name" autofocus required><br>
+
+          <label for="last_name">Last name:<span class="required">*</span></label>
+          <input type="text" name="last_name" id="last_name" required><br>
+
+          <label for="email">Email:<span class="required">*</span></label>
+          <input type="email" name="email" id="email" required placeholder="johndoe@example.com"><br>
+        
+
+       <fieldset>
+        <label for="gender">Gender: </label>
+          <input type="radio" id= "gender-male" name="gender" value="male"> Male
+          <input type="radio" id= "gender-female" name="gender" value="female"> female
+          <input type="radio" id= "gender-other" name="gender" value="other" checked> Other <br>
+        </fieldset>          
+
+         
+        <fieldset>
+          <label for="message">Where did you hear about us?: </label>
+
+          <input type="checkbox" id="Internet" name="Internet" value="internet" checked> internet <br>
+          <input type="checkbox" class="marginl" id="Newspaper" name="paper" value="paper"> Newspaper <br>
+          <input type="checkbox" class="marginl" id="Friend" name="friend" value="friend"> Friend<br>
+          <input type="checkbox" class="marginl" id="Other" name="Add" value="Add"> Other <br>    
+        </fieldset>         
+
+      <label for="message"> Query: </label>
+      <textarea cols="40" rows="6" id="message" name="message" 
+      placeholder="Your message must be less than 200 characters" data-maxlength="200"></textarea><br>
+
+      <input type="submit" name="submit" id="button" value="Submit">
+      <input type="reset" name="reset" id="reset">
+
+      </form>
+    <aside>
+     <h2>Where to Find Us</h2>
+     <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2329.8441131532813!2d-8.47788932449326!3d54.27133520511471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x485ee834774ddc85%3A0x21d90c23419d7e01!2sO&#39;Connell%20St%2C%20Knappagh%20Beg%2C%20Sligo!5e0!3m2!1sen!2sie!4v1743345613934!5m2!1sen!2sie"
+       width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </aside>
+    
+    </section>
+     
+    </main>
+    <div class="footer-info">
+      <p>
+        12 Fake St<br>
+        Sligo Town<br>
+        Co. Sligo
+      </p>
+      <p>&copy; 2025</p>
+    </div>
+  </body>
+</html>
